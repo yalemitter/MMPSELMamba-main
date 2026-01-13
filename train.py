@@ -41,19 +41,9 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 from torch.utils.data import DataLoader
 
-import seaformer
-# import efficinetnet1
-# import mmse_Mamba
-# import biye_model
-import stnet
-# import no_mlp_MMSEMamba
-# import min_mean
-# import max_mean
-# import max_min_v2
-# import swin_transformer
-# import max_min_v1
-# import mmse_Mamba_layer
-# import RESNet
+
+import MMPSELMamba
+
 try:
     from apex import amp
     from apex.parallel import DistributedDataParallel as ApexDDP
